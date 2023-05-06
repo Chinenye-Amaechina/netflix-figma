@@ -28,13 +28,15 @@ nav {
   padding: 10px 0;
 }
 .logo {
-  width: 150px;
+  width: 90px;
+  height: 40px;
   cursor: pointer;
 }
 .logo img {
   width: 100%;
   object-fit: contain;
-  padding-left: 10px;
+  margin-left: 25px;
+  margin-top: 20px;
 }
 nav button {
   border: 0;
