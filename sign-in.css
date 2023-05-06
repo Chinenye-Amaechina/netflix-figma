@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgba(0, 0, 0, 0.5) url(./assets/bckgrnd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-position: top;
+}
+.logo{
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+}
+.logo img{
+    width: 100%;
+    object-fit: contain;
+    margin-left: 25px;
+    margin-top: 20px
+}
+
+.container{
+    width: 450px;
+    border: 1px solid #000000a9;
+    min-height: 100vh;
+    margin: auto;
+    background-color: #000000a9;
+}
+.container h1{
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+input{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 320px;
+    height: 47px;
+    background-color: #333;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+}
+:input::placeholder{
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 12px;
+}
+input[type=submit]{
+    width: 320px;
+    height: 45px;
+    background-color: red;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+input[type=checkbox]{
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+}
+label{
+    color: rgb(124, 122, 122);
+}
+.form a{
+    float: right;
+    margin-top: 24px;
+    margin-right: 64px;
+    color: rgb(124, 122, 122);
+    text-decoration: none;
+}
+
+.signup, .protection{
+    margin-top: 15px;
+    font-size: 9px;
+}
+
+.signup h2, .protection{
+    color: rgb(124, 122, 122);
+}
+
+.container a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.learn-more{
+    color: blue !important;
+}
+ 
+.login-bottom{
+    margin-top: 75px;
+    margin-left: 53px;
+}
+
+footer{
+    margin: auto;
+    background-color: #000000a9;
+    margin-top: 90px;    
+}
+
+.language{
+    background-color: #000000a9;
+    border: 1px solid white;
+    color: white;
+    padding: 12px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.links a, .top a{
+    text-decoration: none;
+    color: rgb(124, 122, 122);
+}
